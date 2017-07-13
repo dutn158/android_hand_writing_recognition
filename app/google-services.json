@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "869268741508",
+    "firebase_url": "https://mnist-demo-88913.firebaseio.com",
+    "project_id": "mnist-demo-88913",
+    "storage_bucket": "mnist-demo-88913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869268741508:android:085f794c7a4b3a5a",
+        "android_client_info": {
+          "package_name": "com.uit.mh.mnistdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869268741508-c8ffo0i4ik89bu89f9ccssjq6vh3tu81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uit.mh.mnistdemo",
+            "certificate_hash": "ffefbd28e1dedd7affc71c0b57337f913a06c302"
+          }
+        },
+        {
+          "client_id": "869268741508-8bpj3hlh24pkfnn2cm6rnnkqtget6bk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgDXcOWbzV1GxV5QhqxLAtrTy-CSvr67Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869268741508-8bpj3hlh24pkfnn2cm6rnnkqtget6bk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

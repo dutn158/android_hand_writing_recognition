@@ -1,0 +1,3 @@
+/Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/prodDebug/mips/CMakeFiles/edit_cache.dir
+/Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/prodDebug/mips/CMakeFiles/rebuild_cache.dir
+/Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/prodDebug/mips/CMakeFiles/image-graph-processing.dir

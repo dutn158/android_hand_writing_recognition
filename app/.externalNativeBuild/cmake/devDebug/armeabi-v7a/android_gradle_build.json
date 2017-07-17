@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/dutn/Git/Github/android_hand_writing_recognition/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/dutn/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/devDebug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"image-graph-processing-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "image-graph-processing",
+			"buildCommand" : "/Users/dutn/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/devDebug/armeabi-v7a --target image-graph-processing",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/dutn/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dutn/Library/Android/sdk/ndk-bundle/sysroot  -Dimage_graph_processing_EXPORTS -isystem /Users/dutn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dutn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/dutn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/dutn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/dutn/Git/Github/android_hand_writing_recognition/app/src/main/cpp/ImageGraphProcessing.cpp",
+					"workingDirectory" : "/Users/dutn/Git/Github/android_hand_writing_recognition/app/.externalNativeBuild/cmake/devDebug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/dutn/Git/Github/android_hand_writing_recognition/app/build/intermediates/cmake/dev/debug/obj/armeabi-v7a/libimage-graph-processing.so",
+			"toolchain" : "15041252935332962216"
+		}
+	},
+	"toolchains" : 
+	{
+		"15041252935332962216" : 
+		{
+			"cCompilerExecutable" : "/Users/dutn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/dutn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

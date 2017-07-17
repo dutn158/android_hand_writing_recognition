@@ -35,10 +35,10 @@ android {
             storePassword 'android'
         }
         release {
-            keyAlias 'xpc_release'
-            keyPassword 'Xpc@321'
-            storeFile file('./keystores/xpc_release.jks')
-            storePassword 'Xpc@321'
+            keyAlias 'android'
+            keyPassword 'android'
+            storeFile file('./keystores/debug.jks')
+            storePassword 'android'
         }
     }
 
@@ -95,9 +95,6 @@ dependencies {
 
     // gosn
     compile 'com.google.code.gson:gson:2.8.1'
-
-    // ads
-    compile 'com.google.android.gms:play-services-ads:10.2.4'
 }
 
 apply plugin: 'com.google.gms.google-services'

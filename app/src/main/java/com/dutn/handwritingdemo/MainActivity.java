@@ -41,50 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private NeuralNetwork neuralNetwork;
 
-    private AdView mAdView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // ads
-        MobileAds.initialize(this, "ca-app-pub-2596474184327279~7884519141");
-        mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-        mAdView.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Log.d(TAG, "onAdClosed() called");
-            }
-
-            @Override
-            public void onAdFailedToLoad(int i) {
-                super.onAdFailedToLoad(i);
-                Log.d(TAG, "onAdFailedToLoad() called with: i = [" + i + "]");
-            }
-
-            @Override
-            public void onAdLeftApplication() {
-                super.onAdLeftApplication();
-                Log.d(TAG, "onAdLeftApplication() called");
-            }
-
-            @Override
-            public void onAdOpened() {
-                super.onAdOpened();
-                Log.d(TAG, "onAdOpened() called");
-            }
-
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-                Log.d(TAG, "onAdLoaded() called");
-            }
-        });
-        mAdView.loadAd(adRequest);
 
         //get drawing view
         drawView = (DrawView) findViewById(R.id.drawer_view);
@@ -126,24 +86,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onResume() {
         drawView.onResume();
-        // Resume the AdView.
-        mAdView.resume();
         super.onResume();
     }
 
     @Override
     protected void onPause() {
         drawView.onPause();
-        // Pause the AdView.
-        mAdView.pause();
         super.onPause();
     }
 
     @Override
     public void onDestroy() {
-        // Destroy the AdView.
-        mAdView.destroy();
-
         super.onDestroy();
     }
 
